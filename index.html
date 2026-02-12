@@ -6,30 +6,71 @@
     <body> 
         <div> 
             <h1>Aprendiendo con <strong>CODDY</strong> en HTML</h1>
+            
             <p>Este paso para mi es esnecial para aprender <br>
             a hacer paginas web que es a lo que quiero lograr llegar</p>
+            
             <img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg" alt="Code Camp banner" width="320">
         </div>
 
         <div> 
             <h2>Event Shedule </h2>
+            
             <table border="1"> 
+                
                 <tr> 
                     <td>Time </td>
                     <td>Activity </td>
                     <td>Location </td>
                 </tr>
+                
                 <tr> 
                     <th>10:00 AM </th>
                     <th>Welcome Speech </th>
                     <th>Main Hall </th>
                 </tr>
+
                 <tr> 
                     <th>11:00 AM </th>
                     <th>Workshop: Intro to HTML </th>
                     <th>Room A </th>
                 </tr>
             </table>
+        </div>
+
+        <div> 
+                <h2>Register Now </h2>
+            <form> 
+                <label for="name">Name:</label>
+                <input type="text"
+                 id="name"
+                 name="name">
+                 <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email"
+                 id="email"
+                 name="email">
+                 <br><br>
+
+                <label for="sesion">Chosse a sesion: </label>
+                <select id="sesion"
+                 name="sesion"> 
+                    <option value="morning">Morning</option>
+                    <option value="afternoon">Afternoon</option>
+                </select><br><br>
+
+                <input type="checkbox"
+                 id="terms"
+                 name="terms">
+                <label for="terms">
+                 I agree to the terms and conditions
+                </label>
+
+                <button type="submit">
+                 Submit</button> 
+            </form>
+
         </div>
     </body>
 </html>
